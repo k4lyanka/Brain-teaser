@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/stly.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">    
+
+    <title>Brain-teaser</title>
+</head>
+<body>
+
+<!-------------HEADER-------------->
+
+<header>
+<!--NAV-TOP-->   
+<div class="container-fluid">
+  <div class="container">
+    <div class="nav1 row pt-1">
+      
+      <!--COMPTES-->
+      <div class="col-md-1 offset-md-6 ">
+        <p class="text-right "><a href="#">Compte</a></p>
+      </div>
+      
+      <!--CONTACTEZ-NOUS-->
+      <div class="col-md-3">
+        <p class="text-center"><a href="#">Contactez-nous</a></p>
+      </div>
+      
+      <!--PANIER-->
+      <div class="row col-md-2">
+        <!--Logo-->
+        <a href="./connection.html">
+        <svg class="align-self-center" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-basket-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+        </svg>
+        </a>
+      
+        <!--Texte-->
+        <p class="pl-2"><a href="./connection.html">Panier</a></p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--NAVMID-->
+<div class="container-fluid">
+  <div class="container">
+    <div class="nav2 row">
+      
+      <!--LOGO-->
+      <img class="col-md-2 pb-4 logo " src="../Brain-teaser layout/img/Logo/3f7c15d7-85cd-4c0e-a0c6-445087325652_200x200.png">
+      
+      <!--BARRE DE RECHERHCE-->
+      <div class="nav col-md-6 offset-1 d-flex justify-content-center align-items-center">
+      <input class=" search_query form-control" type="text" id="search_query_top" name="search_query" placeholder=" Rechercher" value="">
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+<!--NAV-BOTTOM-->  
+<div class="container-fluid">
+  <div class="container">
+    <div class="nav3 row">
+    
+      <!--LISTE CATEGORIES-->
+      <ul class="nav nav-tabs">
+         <!--Rubik's cube-->
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Rubik's cube</a>
+        </li>
+        <!--Casses-têtes-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Casses-têtes</a>
+        </li>
+        <!--Promos-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Promos</a>
+        </li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+</header>
+<br>
+
+<!-------------MAIN-------------->
+<main>
+  
+  <div class="container-fluid ">
+    <div class="container">
+      <div class="row pt-4">
+          
+          <!--PARA-CUBE-PARA-->
+          <!--Para-->
+          <p class=" para col-md-4 row align-items-center mr-1">Le Rubik’s Cube est un casse-tête inventé par Ernő Rubik en 1974, et qui s’est rapidement répandu sur toute la planète au cours des années 1980.</p>
+          <!--Cube-->
+          <img class="cube col-md-4 pt-4 pl-4" src="./img/Deco/rubikscube.png" alt="Cube">
+          <!--Para-->
+          <p class=" para col-md-4 row align-items-center ml-1 ">Il s'agit d'un casse-tête géométrique à trois dimensions composé extérieurement de vingt-six éléments.</p>
+      
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row pt-4">
+        
+        <!--LET'S-PLAY-->       
+        <h1 class=" play col-md-4 offset-4 row justify-content-center">Let's play!</h1>
+      
+      </div>
+    </div>
+  </div>
+</main>
+
+<!------------------------Produits------------------------>
+
+<!--Produit1-Cube 2x2 Double Meffert-->
+  
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      
+      <div class="c_item col-md-4 m-0 pt-3 pb-3">
+          <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+              
+            <div class="left-block">
+              <div class="product-image-container">
+                <!--Image-->
+                <!--Redirection au clic-->
+                <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+                <!--Choix de l'image-->
+                <img class="replace-2x" src="./img/Produits/cube-2x2-double-meffert.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+                </a> 
+              </div>
+            </div>
+      
+            <!--Nom et prix-->
+            <div class="right-block">
+              <!--Titre du produit+href-->
+              <h5>
+                <a href="Produits/produit1.html" class="product-name nowrap ">Cube 2x2 Double Meffert</a>
+              </h5>
+              <!--Encart Prix-->
+              <span class="price product-price text-center">25,00 €</span>
+            </div>
+          </div>
+      </div>
+      
+  
+  <!--Produit-2-Cube 2x2-->
+  
+        <div class="c_item col-md-4 pt-3 pb-3">
+          <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+              
+            <div class="left-block">
+              
+              <div class="product-image-container">
+                  <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+                  <img class="replace-2x" src="img/Produits/cube-2x2-double.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+                  </a> 
+              </div>
+            </div>
+      
+            <div class="right-block">
+              
+              <h5>
+                <a href="Produits/produit1.html" class="product-name nowrap ">Cube 2x2</a>
+              </h5>
+              <span class="price product-price text-center">20,00 €</span>
+            </div>
+        
+          </div>
+        </div>
+   
+<!--Produit3-Cube 3x3 Formules-->
+  
+        <div class="c_item col-md-4 pt-3 pb-3">
+          <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+            
+            <div class="left-block">
+              
+              <div class="product-image-container">
+                <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+                <img class="replace-2x" src="./img/Produits/cube-3x3-formules-de-mathematiques-et-de-physique-green.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+                </a> 
+              </div>
+            </div>
+    
+            <div class="right-block">
+            
+            <h5>
+                <a href="Produits/produit1.html" class="product-name nowrap ">Cube 3x3 Formules</a>
+            </h5>
+            <span class="price product-price text-center">25,00 €</span>
+            </div>
+          
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!--Produit4-Cube 3x3 Gan-->
+  
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+  
+      <div class="c_item col-md-4 m-0 pt-3 pb-3 ">
+        <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+        
+          <div class="left-block">
+            <div class="product-image-container">
+              <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+                <img class="replace-2x" src="./img/Produits/cube-3x3-gan-356-i-play.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+              </a> 
+            </div>
+          </div>
+
+          <div class="right-block">
+        
+            <h5>
+              <a href="Produits/produit1.html" class="product-name nowrap ">Cube 3x3 Gan</a>
+            </h5>
+            <span class="price product-price text-center">25,00 €</span>
+          </div>
+        
+        </div>
+      </div>
+
+<!--Produit5-Cube 3x3 twisty stickerles-->
+
+  <div class="c_item col-md-4 pt-3 pb-3">
+    
+    
+    <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+        <div class="left-block">
+            <div class="product-image-container">
+            
+            
+            <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+           
+            <img class="replace-2x" src="./img/Produits/cube-3x3-twisty-stickerless.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+            </a> 
+            
+            </div>
+        </div>
+
+    
+    <div class="right-block">
+      
+        <h5>
+            <a href="Produits/produit1.html" class="product-name nowrap ">Cube 3x3 twisty stickerless</a>
+        </h5>
+      
+       
+        <span class="price product-price text-center">25,00 €</span>
+    
+    </div>
+  </div>
+</div>
+
+
+ <!--Produit6-Cube 7x7 Moyu black-->
+
+  
+  
+ <div class="c_item col-md-4 pt-3 pb-3">
+ 
+  
+  <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+      <div class="left-block">
+          <div class="product-image-container">
+          
+       
+          <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+         
+          <img class="replace-2x" src="./img/Produits/cube-7x7-mf7-moyu-black.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+          </a> 
+          
+          </div>
+      </div>
+
+ 
+  <div class="right-block">
+     
+      <h5>
+          <a href="Produits/produit1.html" class="product-name nowrap ">Cube 7x7 Moyu black</a>
+      </h5>
+    
+     
+      <span class="price product-price text-center">25,00 €</span>
+  
+  </div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+<!--Produit7-Cube Cylindre Gear-->
+  
+<div class="container-fluid">
+  <div class="container">
+  <div class="row">
+  <div class="c_item col-md-4 m-0 pt-3 pb-3 ">
+   
+    
+    <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+        <div class="left-block">
+            <div class="product-image-container">
+            
+           
+            <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+            
+            <img class="replace-2x" src="./img/Produits/cube-cylindre-gear.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+            </a> 
+            
+            </div>
+        </div>
+
+    
+    <div class="right-block">
+    
+        <h5>
+            <a href="Produits/produit1.html" class="product-name nowrap ">Cube Cylindre Gear</a>
+        </h5>
+      
+       
+        <span class="price product-price text-center">19.90 €</span>
+    
+    </div>
+  </div>
+
+</div>
+
+
+<!--Produit8-Cube Floppy Guanlong-->
+
+  
+  
+  <div class="c_item col-md-4 pt-3 pb-3">
+  
+    
+    <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+        <div class="left-block">
+            <div class="product-image-container">
+            
+          
+            <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+            
+            <img class="replace-2x" src="./img/Produits/cube-floppy-guanlong.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+            </a> 
+            
+            </div>
+        </div>
+
+   
+    <div class="right-block">
+       
+        <h5>
+            <a href="Produits/produit1.html" class="product-name nowrap ">Cube Floppy Guanlong</a>
+        </h5>
+       
+       
+        <span class="price product-price text-center">22,00 €</span>
+    
+    </div>
+  </div>
+</div>
+
+
+ <!--Produit9-Cube Polaris Stickerless-->
+
+  
+  
+ <div class="c_item col-md-4 pt-3 pb-3">
+ 
+  
+  <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+      <div class="left-block">
+          <div class="product-image-container">
+        
+          <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+         
+          <img class="replace-2x" src="./img/Produits/cube-polaris-stickerless-moyu.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+          </a> 
+          
+          </div>
+      </div>
+
+
+  <div class="right-block">
+    
+      <h5>
+          <a href="Produits/produit1.html" class="product-name nowrap ">Cube Polaris Stickerless</a>
+      </h5>
+     
+     
+      <span class="price product-price text-center">19,99 €</span>
+  
+  </div>
+</div>
+</div>
+
+<!--Produit10-Cube Pyraminx Ghost-->
+
+  
+  
+<div class="c_item col-md-4 pt-3 pb-3">
+
+  
+  <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+      <div class="left-block">
+          <div class="product-image-container">
+          
+        
+          
+          <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+         
+          <img class="replace-2x" src="./img/Produits/cube-pyraminx-ghost-carbon-bleu.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+          </a> 
+          
+          </div>
+      </div>
+
+ 
+  <div class="right-block">
+     
+      <h5>
+          <a href="Produits/produit1.html" class="product-name nowrap ">Cube Pyraminx Ghost</a>
+      </h5>
+     
+     
+      <span class="price product-price text-center">20,00 €</span>
+  
+  </div>
+</div>
+</div>
+
+<!--Produit11-Cube Rediminx-->
+
+  
+  
+<div class="c_item col-md-4 pt-3 pb-3">
+
+  
+  <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+      <div class="left-block">
+          <div class="product-image-container">
+          
+         
+          <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+          
+          <img class="replace-2x" src="./img/Produits/cube-rediminx.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+          </a> 
+          
+          </div>
+      </div>
+
+  
+  <div class="right-block">
+      
+      <h5>
+          <a href="Produits/produit1.html" class="product-name nowrap ">Cube Rediminx</a>
+      </h5>
+      
+     
+      <span class="price product-price text-center">25,00 €</span>
+  
+  </div>
+</div>
+</div>
+
+<!--Produit12-Cube Skewb Ultimate-->
+
+  
+  
+<div class="c_item col-md-4 pt-3 pb-3">
+  
+  
+  <div class="product-container has-price" itemscope="" itemtype="Produits/produit1.html">
+      <div class="left-block">
+          <div class="product-image-container">
+          
+          
+         
+          <a class="product_img_link" href="Produits/produit1.html" itemprop="url"> 
+          
+          <img class="replace-2x" src="./img/Produits/cube-skewb-ultimate-meffert-s.jpg" alt="Cube 1" width="250" height="250" itemprop="image">
+          </a> 
+          
+          </div>
+      </div>
+
+ 
+  <div class="right-block">
+      
+      <h5>
+          <a href="Produits/produit1.html" class="product-name nowrap ">Cube Skewb Ultimate</a>
+      </h5>
+      
+     
+      <span class="price product-price text-center">25,00 €</span>
+  
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row pt-1 pb-1">
+<!--A Propos-->       
+        <div class="col-sm-12 col-md-6">
+          <h6>A Propos</h6>
+          <p class="social text-justify">Nous travaillons au quotidien afin de vous sélectioner les méilleurs casse têtes.
+            Notre service client est à votre écoute! Vous pouvez nous contacter directement via notre formulaire de contact.
+
+                 
+
+Professionnels, ludothèques, associations et clubs, vous pouvez nous faire parvenir vos demandes personnalisées.
+          </p>
+        </div>
+<!--Mon shopping-->
+        <div class="col-xs-6 col-md-3">
+          <h6>MON SHOPPING</h6>
+          <ul class="footer-links">
+            <li><a href="/compte.html">Mon Compte</a></li>
+            <li><a href="/compte.html">News</a></li>
+            <li><a href="/compte.html">Promos</a></li>
+           </ul>
+        </div>
+<!--Qui Sommes-nous-->
+        <div class="col-xs-6 col-md-3">
+          <h6>Qui-Sommes-Nous?</h6>
+          <ul class="footer-links">
+            <li><a href="/compte.html">L'équipe</a></li>
+            <li><a href="/compte.html">La Boutique</a></li>
+            <li><a href="/compte.html">Nos Horaires</a></li>
+            <li><a href="/compte.html">Nous contacter</a></li>
+           </ul>
+        </div>
+    </div>
+    <br>
+<!--Social-->
+    <div class="col-md-3 justify-content-start align-self-center pb-4">
+      <h3 class="jsutify-content-start">Follow-us</h3>
+      <a href="https://www.google.com/"><img src="./img/icones/facebook.png"></a>
+      <a href="https://www.google.com/"><img class="pl-3 pr-3" src="./img/icones/instagram.png"></a>
+      <a href="https://www.google.com/"><img src="./img/icones/twitter.png"></a>
+
+
+    </div>
+   
+
+  </footer>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
+</body>
+</html>
